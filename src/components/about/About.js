@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class SearchBar extends Component{
+class AboutPage extends Component{
   render(){
     return (
       <div>
-        <input type="text" name="Search"/>
+        About Page
       </div>
     );
   }
 }
 
-export default SearchBar;
+export default AboutPage;

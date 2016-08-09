@@ -1,15 +1,8 @@
-import React, {Component} from 'react';
+import 'babel-polyfill'
+import React from 'react';
 import ReactDOM from 'react-dom';
-import SearchBar from './SearchBar';
+import Router,{BrowserHistory} from 'react-router';
+import routes from './routes';
 
-class App extends Component{
-  render(){
-    return (
-      <div>
-        Search: <SearchBar />
-      </div>
-    );
-  }
-}
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+ReactDOM.render(<Router history={BrowserHistory} routes={routes} />, document.getElementById('app'));
