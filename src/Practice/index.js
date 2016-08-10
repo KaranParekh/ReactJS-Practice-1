@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import SearchBar from './Practice/SearchBar';
+import SearchBar from './SearchBar';
 
 class App extends Component{
   constructor(props){
